@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP73871
+D Stand-Alone System Load Sharing and Li-Ion / Li-Polymer Battery Charge Management Controller
+K Stand-Alone System Load Sharing and Li-Ion / Li-Polymer Battery Charge Management Controller
+F https://cdn-shop.adafruit.com/datasheets/MCP73871.pdf
+$ENDCMP
+#
+#End Doc Library
