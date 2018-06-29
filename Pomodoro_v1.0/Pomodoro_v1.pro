@@ -1,4 +1,4 @@
-update=czw, 21 cze 2018, 21:10:38
+update=nie, 24 cze 2018, 15:01:48
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,5 @@ LibName34=SW-Microchip
 LibName35=tps62260
 LibName36=LED
 LibName37=LED_BGR
+LibName38=mounting-hole
+LibName39=AS1122
