@@ -31,13 +31,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MCU_ST_STM8
 LIBS:SW-Microchip
 LIBS:tps62260
 LIBS:LED
 LIBS:LED_BGR
 LIBS:mounting-hole
 LIBS:AS1122
+LIBS:MCU_ST_STM8
 LIBS:Pomodoro_v1-cache
 EELAYER 25 0
 EELAYER END
@@ -65,6 +65,7 @@ F 4 "Microchip" H 3550 3850 60  0001 C CNN "Manufacturer"
 F 5 "Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller" H 3650 3950 60  0001 C CNN "Description"
 F 6 "MSOP-10, DFN-10" H 3500 4050 60  0001 C CNN "Package ID"
 F 7 "0.00@0" H 3550 4150 60  0001 C CNN "Pricing"
+F 8 "https://www.tme.eu/pl/details/mcp73833-fci_mf/kontrolery-baterii-i-akumulatorow-uklady/microchip-technology/" H 3550 2900 60  0001 C CNN "Link"
 	1    3550 2900
 	1    0    0    -1  
 $EndComp
@@ -74,8 +75,9 @@ U 1 1 5B270749
 P 11100 600
 F 0 "U3" H 11200 -350 60  0000 C CNN
 F 1 "STM8L151C2T6" H 11450 650 60  0000 C CNN
-F 2 "" H 11100 600 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 11100 600 60  0001 C CNN
 F 3 "" H 11100 600 60  0001 C CNN
+F 4 "https://pl.mouser.com/ProductDetail/STMicroelectronics/STM8L151C2T6?qs=%2fha2pyFadujNatApb6mgzz5oJ%2fAcQJ2NvK7l0Sy1H86fz2YF2WkIHQ%3d%3d" H 11100 600 60  0001 C CNN "Link"
 	1    11100 600 
 	-1   0    0    -1  
 $EndComp
@@ -85,8 +87,9 @@ U 2 1 5B2708E3
 P 11100 1850
 F 0 "U3" H 11200 900 60  0000 C CNN
 F 1 "STM8L151C2T6" H 11450 1900 60  0000 C CNN
-F 2 "" H 11100 1850 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 11100 1850 60  0001 C CNN
 F 3 "" H 11100 1850 60  0001 C CNN
+F 4 "https://pl.mouser.com/ProductDetail/STMicroelectronics/STM8L151C2T6?qs=%2fha2pyFadujNatApb6mgzz5oJ%2fAcQJ2NvK7l0Sy1H86fz2YF2WkIHQ%3d%3d" H 11100 1850 60  0001 C CNN "Link"
 	2    11100 1850
 	-1   0    0    -1  
 $EndComp
@@ -96,7 +99,7 @@ U 3 1 5B270920
 P 11150 3050
 F 0 "U3" H 11250 2100 60  0000 C CNN
 F 1 "STM8L151C2T6" H 11500 3100 60  0000 C CNN
-F 2 "" H 11150 3050 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 11150 3050 60  0001 C CNN
 F 3 "" H 11150 3050 60  0001 C CNN
 	3    11150 3050
 	-1   0    0    -1  
@@ -107,8 +110,9 @@ U 4 1 5B2709E3
 P 11150 4250
 F 0 "U3" H 11250 3300 60  0000 C CNN
 F 1 "STM8L151C2T6" H 11500 4300 60  0000 C CNN
-F 2 "" H 11150 4250 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 11150 4250 60  0001 C CNN
 F 3 "" H 11150 4250 60  0001 C CNN
+F 4 "https://pl.mouser.com/ProductDetail/STMicroelectronics/STM8L151C2T6?qs=%2fha2pyFadujNatApb6mgzz5oJ%2fAcQJ2NvK7l0Sy1H86fz2YF2WkIHQ%3d%3d" H 11150 4250 60  0001 C CNN "Link"
 	4    11150 4250
 	-1   0    0    -1  
 $EndComp
@@ -118,7 +122,7 @@ U 5 1 5B270A26
 P 9700 5450
 F 0 "U3" H 9800 4500 60  0000 C CNN
 F 1 "STM8L151C2T6" H 10050 5500 60  0000 C CNN
-F 2 "" H 9700 5450 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 9700 5450 60  0001 C CNN
 F 3 "" H 9700 5450 60  0001 C CNN
 	5    9700 5450
 	-1   0    0    -1  
@@ -129,7 +133,7 @@ U 6 1 5B270A73
 P 11150 5400
 F 0 "U3" H 11250 4450 60  0000 C CNN
 F 1 "STM8L151C2T6" H 11500 5450 60  0000 C CNN
-F 2 "" H 11150 5400 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 11150 5400 60  0001 C CNN
 F 3 "" H 11150 5400 60  0001 C CNN
 	6    11150 5400
 	-1   0    0    -1  
@@ -140,7 +144,7 @@ U 7 1 5B270B2E
 P 6850 6600
 F 0 "U3" H 6950 5650 60  0000 C CNN
 F 1 "STM8L151C2T6" H 7200 6650 60  0000 C CNN
-F 2 "" H 6850 6600 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 6850 6600 60  0001 C CNN
 F 3 "" H 6850 6600 60  0001 C CNN
 	7    6850 6600
 	-1   0    0    -1  
@@ -230,6 +234,7 @@ F 0 "SW1" H 850 1770 50  0000 C CNN
 F 1 "SLIDER" H 850 1400 50  0000 C CNN
 F 2 "" H 850 1600 50  0001 C CNN
 F 3 "" H 850 1600 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/5ms1s102am6qe/przelaczniki-suwakowe/" H 850 1600 60  0001 C CNN "Link"
 	1    850  1600
 	1    0    0    -1  
 $EndComp
@@ -273,8 +278,9 @@ U 1 1 5B28494B
 P 3400 1150
 F 0 "U2" H 3400 1350 60  0000 C CNN
 F 1 "TPS62260" H 3650 900 60  0000 C CNN
-F 2 "" H 3400 1150 60  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3400 1150 60  0001 C CNN
 F 3 "" H 3400 1350 60  0000 C CNN
+F 4 "https://pl.mouser.com/ProductDetail/Texas-Instruments/TPS62260DDCT?qs=sGAEpiMZZMtitjHzVIkrqaPUiYCKnv4PSWEJxXjVdYE%3d" H 3400 1150 60  0001 C CNN "Link"
 	1    3400 1150
 	1    0    0    -1  
 $EndComp
@@ -297,6 +303,7 @@ F 0 "Q1" H 2500 1075 50  0000 L CNN
 F 1 "BC807" H 2500 1000 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 2500 925 50  0001 L CIN
 F 3 "" H 2300 1000 50  0001 L CNN
+F 4 "https://pl.mouser.com/ProductDetail/Nexperia/BC807215?qs=sGAEpiMZZMvKM5ialpXrmhmqXJPocDa9" H 2300 1000 60  0001 C CNN "Link"
 	1    2300 1000
 	1    0    0    1   
 $EndComp
@@ -358,6 +365,7 @@ F 0 "D1" H 800 6050 50  0000 C CNN
 F 1 "R" H 900 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 800 5950 50  0001 C CNN
 F 3 "" H 800 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/osr50805c1e/diody-led-smd-kolorowe/optosupply/" H 800 5950 60  0001 C CNN "Link"
 	1    800  5950
 	0    -1   -1   0   
 $EndComp
@@ -369,6 +377,7 @@ F 0 "D2" H 1050 6050 50  0000 C CNN
 F 1 "R" H 1150 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 1050 5950 50  0001 C CNN
 F 3 "" H 1050 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/osr50805c1e/diody-led-smd-kolorowe/optosupply/" H 1050 5950 60  0001 C CNN "Link"
 	1    1050 5950
 	0    -1   -1   0   
 $EndComp
@@ -380,6 +389,7 @@ F 0 "D3" H 1400 6050 50  0000 C CNN
 F 1 "Y" H 1500 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 1400 5950 50  0001 C CNN
 F 3 "" H 1400 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/osy50805c1e/diody-led-smd-kolorowe/optosupply/" H 1400 5950 60  0001 C CNN "Link"
 	1    1400 5950
 	0    -1   -1   0   
 $EndComp
@@ -391,6 +401,7 @@ F 0 "D4" H 1650 6050 50  0000 C CNN
 F 1 "Y" H 1750 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 1650 5950 50  0001 C CNN
 F 3 "" H 1650 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/osy50805c1e/diody-led-smd-kolorowe/optosupply/" H 1650 5950 60  0001 C CNN "Link"
 	1    1650 5950
 	0    -1   -1   0   
 $EndComp
@@ -402,6 +413,7 @@ F 0 "D5" H 1900 6050 50  0000 C CNN
 F 1 "Y" H 2000 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 1900 5950 50  0001 C CNN
 F 3 "" H 1900 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/osy50805c1e/diody-led-smd-kolorowe/optosupply/" H 1900 5950 60  0001 C CNN "Link"
 	1    1900 5950
 	0    -1   -1   0   
 $EndComp
@@ -413,6 +425,7 @@ F 0 "D6" H 2150 6050 50  0000 C CNN
 F 1 "Y" H 2250 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 2150 5950 50  0001 C CNN
 F 3 "" H 2150 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/osy50805c1e/diody-led-smd-kolorowe/optosupply/" H 2150 5950 60  0001 C CNN "Link"
 	1    2150 5950
 	0    -1   -1   0   
 $EndComp
@@ -424,6 +437,7 @@ F 0 "D7" H 2500 6050 50  0000 C CNN
 F 1 "G" H 2600 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 2500 5950 50  0001 C CNN
 F 3 "" H 2500 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/ll-s170pgc-g5-1a/diody-led-smd-kolorowe/lucky-light/" H 2500 5950 60  0001 C CNN "Link"
 	1    2500 5950
 	0    -1   -1   0   
 $EndComp
@@ -435,6 +449,7 @@ F 0 "D8" H 2750 6050 50  0000 C CNN
 F 1 "G" H 2850 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 2750 5950 50  0001 C CNN
 F 3 "" H 2750 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/ll-s170pgc-g5-1a/diody-led-smd-kolorowe/lucky-light/" H 2750 5950 60  0001 C CNN "Link"
 	1    2750 5950
 	0    -1   -1   0   
 $EndComp
@@ -446,6 +461,7 @@ F 0 "D9" H 3000 6050 50  0000 C CNN
 F 1 "G" H 3100 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 3000 5950 50  0001 C CNN
 F 3 "" H 3000 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/ll-s170pgc-g5-1a/diody-led-smd-kolorowe/lucky-light/" H 3000 5950 60  0001 C CNN "Link"
 	1    3000 5950
 	0    -1   -1   0   
 $EndComp
@@ -457,6 +473,7 @@ F 0 "D10" H 3250 6050 50  0000 C CNN
 F 1 "G" H 3350 5900 50  0000 C CNN
 F 2 "LEDs:LED_0805" H 3250 5950 50  0001 C CNN
 F 3 "" H 3250 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/ll-s170pgc-g5-1a/diody-led-smd-kolorowe/lucky-light/" H 3250 5950 60  0001 C CNN "Link"
 	1    3250 5950
 	0    -1   -1   0   
 $EndComp
@@ -478,7 +495,7 @@ L R R15
 U 1 1 5B2C622F
 P 3700 6600
 F 0 "R15" V 3780 6600 50  0000 C CNN
-F 1 "R" V 3700 6600 50  0000 C CNN
+F 1 "0R" V 3700 6600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 3630 6600 50  0001 C CNN
 F 3 "" H 3700 6600 50  0001 C CNN
 	1    3700 6600
@@ -489,7 +506,7 @@ L R R16
 U 1 1 5B2C6296
 P 3900 6600
 F 0 "R16" V 3980 6600 50  0000 C CNN
-F 1 "R" V 3900 6600 50  0000 C CNN
+F 1 "0R" V 3900 6600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 3830 6600 50  0001 C CNN
 F 3 "" H 3900 6600 50  0001 C CNN
 	1    3900 6600
@@ -500,7 +517,7 @@ L R R17
 U 1 1 5B2C62E7
 P 4100 6600
 F 0 "R17" V 4180 6600 50  0000 C CNN
-F 1 "R" V 4100 6600 50  0000 C CNN
+F 1 "200R" V 4100 6600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4030 6600 50  0001 C CNN
 F 3 "" H 4100 6600 50  0001 C CNN
 	1    4100 6600
@@ -512,8 +529,9 @@ U 1 1 5B2BF93A
 P 3900 6000
 F 0 "D11" H 3900 6370 50  0000 C CNN
 F 1 "LED_BGR" H 3900 5650 50  0000 C CNN
-F 2 "" H 3900 5950 50  0001 C CNN
+F 2 "LEDs:LED_RGB_5050-6" H 3900 5950 50  0001 C CNN
 F 3 "" H 3900 5950 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/fyls-5050nrgbc/diody-led-smd-kolorowe/foryard/" H 3900 6000 60  0001 C CNN "Link"
 	1    3900 6000
 	0    -1   -1   0   
 $EndComp
@@ -522,9 +540,10 @@ L R R14
 U 1 1 5B2C09E1
 P 3250 6550
 F 0 "R14" V 3330 6550 50  0000 C CNN
-F 1 "R" V 3250 6550 50  0000 C CNN
+F 1 "10R" V 3250 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 3180 6550 50  0001 C CNN
 F 3 "" H 3250 6550 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/smd0805-10r/rezystory-smd-0805/royal-ohm/0805s8j0100t5e/" V 3250 6550 60  0001 C CNN "Link"
 	1    3250 6550
 	1    0    0    -1  
 $EndComp
@@ -533,9 +552,10 @@ L R R13
 U 1 1 5B2C0A3A
 P 3000 6550
 F 0 "R13" V 3080 6550 50  0000 C CNN
-F 1 "R" V 3000 6550 50  0000 C CNN
+F 1 "10R" V 3000 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2930 6550 50  0001 C CNN
 F 3 "" H 3000 6550 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/smd0805-10r/rezystory-smd-0805/royal-ohm/0805s8j0100t5e/" V 3000 6550 60  0001 C CNN "Link"
 	1    3000 6550
 	1    0    0    -1  
 $EndComp
@@ -544,9 +564,10 @@ L R R12
 U 1 1 5B2C0A9B
 P 2750 6550
 F 0 "R12" V 2830 6550 50  0000 C CNN
-F 1 "R" V 2750 6550 50  0000 C CNN
+F 1 "10R" V 2750 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2680 6550 50  0001 C CNN
 F 3 "" H 2750 6550 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/smd0805-10r/rezystory-smd-0805/royal-ohm/0805s8j0100t5e/" V 2750 6550 60  0001 C CNN "Link"
 	1    2750 6550
 	1    0    0    -1  
 $EndComp
@@ -555,9 +576,10 @@ L R R11
 U 1 1 5B2C0AFC
 P 2500 6550
 F 0 "R11" V 2580 6550 50  0000 C CNN
-F 1 "R" V 2500 6550 50  0000 C CNN
+F 1 "10R" V 2500 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2430 6550 50  0001 C CNN
 F 3 "" H 2500 6550 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/smd0805-10r/rezystory-smd-0805/royal-ohm/0805s8j0100t5e/" V 2500 6550 60  0001 C CNN "Link"
 	1    2500 6550
 	1    0    0    -1  
 $EndComp
@@ -566,7 +588,7 @@ L R R9
 U 1 1 5B2C0B5F
 P 2150 6550
 F 0 "R9" V 2230 6550 50  0000 C CNN
-F 1 "R" V 2150 6550 50  0000 C CNN
+F 1 "200R" V 2150 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 2080 6550 50  0001 C CNN
 F 3 "" H 2150 6550 50  0001 C CNN
 	1    2150 6550
@@ -577,7 +599,7 @@ L R R6
 U 1 1 5B2C0BC0
 P 1900 6550
 F 0 "R6" V 1980 6550 50  0000 C CNN
-F 1 "R" V 1900 6550 50  0000 C CNN
+F 1 "200R" V 1900 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 1830 6550 50  0001 C CNN
 F 3 "" H 1900 6550 50  0001 C CNN
 	1    1900 6550
@@ -588,7 +610,7 @@ L R R4
 U 1 1 5B2C0C27
 P 1650 6550
 F 0 "R4" V 1730 6550 50  0000 C CNN
-F 1 "R" V 1650 6550 50  0000 C CNN
+F 1 "200R" V 1650 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 1580 6550 50  0001 C CNN
 F 3 "" H 1650 6550 50  0001 C CNN
 	1    1650 6550
@@ -599,7 +621,7 @@ L R R3
 U 1 1 5B2C0C8C
 P 1400 6550
 F 0 "R3" V 1480 6550 50  0000 C CNN
-F 1 "R" V 1400 6550 50  0000 C CNN
+F 1 "200R" V 1400 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 1330 6550 50  0001 C CNN
 F 3 "" H 1400 6550 50  0001 C CNN
 	1    1400 6550
@@ -610,9 +632,10 @@ L R R2
 U 1 1 5B2C0CF1
 P 1050 6550
 F 0 "R2" V 1130 6550 50  0000 C CNN
-F 1 "R" V 1050 6550 50  0000 C CNN
+F 1 "200R" V 1050 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 980 6550 50  0001 C CNN
 F 3 "" H 1050 6550 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/smd0805-200r/rezystory-smd-0805/royal-ohm/0805s8j0201t5e/" V 1050 6550 60  0001 C CNN "Link"
 	1    1050 6550
 	1    0    0    -1  
 $EndComp
@@ -621,9 +644,10 @@ L R R1
 U 1 1 5B2C0D5C
 P 800 6550
 F 0 "R1" V 880 6550 50  0000 C CNN
-F 1 "R" V 800 6550 50  0000 C CNN
+F 1 "200R" V 800 6550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 730 6550 50  0001 C CNN
 F 3 "" H 800 6550 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/smd0805-200r/rezystory-smd-0805/royal-ohm/0805s8j0201t5e/" V 800 6550 60  0001 C CNN "Link"
 	1    800  6550
 	1    0    0    -1  
 $EndComp
@@ -661,6 +685,7 @@ F 0 "J3" H 700 3050 50  0000 L CNN
 F 1 "USB_OTG" H 700 2950 50  0000 L CNN
 F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 1050 2550 50  0001 C CNN
 F 3 "" H 1050 2550 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/mx-105017-0001/zlacza-usb-i-ieee1394/molex/1050170001/" H 900 2600 60  0001 C CNN "Link"
 	1    900  2600
 	1    0    0    -1  
 $EndComp
@@ -781,7 +806,7 @@ U 1 1 5B30532E
 P 3950 1050
 F 0 "L1" H 3980 1090 50  0000 L CNN
 F 1 "2u2" V 4000 900 50  0000 L CNN
-F 2 "" H 3950 1050 50  0001 C CNN
+F 2 "LPS3015:LPS3015" H 3950 1050 50  0001 C CNN
 F 3 "" H 3950 1050 50  0001 C CNN
 F 4 "LPS3015-222MRC" H 3950 1050 60  0001 C CNN "Part no."
 F 5 "https://pl.mouser.com/ProductDetail/Coilcraft/LPS3015-222MRC?qs=QQJxVsr8EGa5yK41CDha%252bg==" H 3950 1050 60  0001 C CNN "Link"
@@ -1123,52 +1148,39 @@ MCU_UART_RX
 Text Label 7700 3450 0    60   ~ 0
 MCU_UART_TX
 $Comp
-L Conn_01x02 J4
-U 1 1 5B3B0E99
-P 800 4750
-F 0 "J4" H 800 4850 50  0000 C CNN
-F 1 "LDR" H 800 4550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 800 4750 50  0001 C CNN
-F 3 "" H 800 4750 50  0001 C CNN
-	1    800  4750
-	-1   0    0    1   
-$EndComp
-$Comp
 L GND #PWR030
 U 1 1 5B3B2B5E
-P 1050 4800
-F 0 "#PWR030" H 1050 4550 50  0001 C CNN
-F 1 "GND" H 1050 4650 50  0000 C CNN
-F 2 "" H 1050 4800 50  0001 C CNN
-F 3 "" H 1050 4800 50  0001 C CNN
-	1    1050 4800
+P 7000 3850
+F 0 "#PWR030" H 7000 3600 50  0001 C CNN
+F 1 "GND" H 7000 3700 50  0000 C CNN
+F 2 "" H 7000 3850 50  0001 C CNN
+F 3 "" H 7000 3850 50  0001 C CNN
+	1    7000 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R23
 U 1 1 5B3B565A
-P 1050 4450
-F 0 "R23" V 1130 4450 50  0000 C CNN
-F 1 "R" V 1050 4450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 980 4450 50  0001 C CNN
-F 3 "" H 1050 4450 50  0001 C CNN
-	1    1050 4450
+P 7000 3250
+F 0 "R23" V 7080 3250 50  0000 C CNN
+F 1 "R" V 7000 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6930 3250 50  0001 C CNN
+F 3 "" H 7000 3250 50  0001 C CNN
+	1    7000 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR031
 U 1 1 5B3B6643
-P 1050 4250
-F 0 "#PWR031" H 1050 4100 50  0001 C CNN
-F 1 "VCC" H 1050 4400 50  0000 C CNN
-F 2 "" H 1050 4250 50  0001 C CNN
-F 3 "" H 1050 4250 50  0001 C CNN
-	1    1050 4250
+P 7000 3050
+F 0 "#PWR031" H 7000 2900 50  0001 C CNN
+F 1 "VCC" H 7000 3200 50  0000 C CNN
+F 2 "" H 7000 3050 50  0001 C CNN
+F 3 "" H 7000 3050 50  0001 C CNN
+	1    7000 3050
 	1    0    0    -1  
 $EndComp
 Text Label 8500 1200 0    60   ~ 0
-V_LDR
-Text Label 1350 4650 2    60   ~ 0
 V_LDR
 $Comp
 L C C4
@@ -1200,6 +1212,7 @@ F 0 "SW2" H 5900 2200 50  0000 L CNN
 F 1 "BUTTON" H 5850 1830 50  0000 C CNN
 F 2 "" H 5850 2300 50  0001 C CNN
 F 3 "" H 5850 2300 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/tacts-24n-f/mikroprzelaczniki-tact/ninigi/" H 5850 2100 60  0001 C CNN "Link"
 	1    5850 2100
 	1    0    0    -1  
 $EndComp
@@ -1246,7 +1259,7 @@ U 1 1 5B3FC11B
 P 5850 3150
 F 0 "BZ1" H 6000 3200 50  0000 L CNN
 F 1 "Buzzer" H 6000 3100 50  0000 L CNN
-F 2 "" V 5825 3250 50  0001 C CNN
+F 2 "BUZZERS_TDK:BUZZERS_TDK" V 5825 3250 50  0001 C CNN
 F 3 "" V 5825 3250 50  0001 C CNN
 F 4 "https://pl.mouser.com/ProductDetail/TDK/PS1240P02BT?qs=sGAEpiMZZMsK322k1rNFfYfXmCWsjkB8iQfg2vl062k%3d" H 5850 3150 60  0001 C CNN "Link"
 F 5 "PS1240P02BT" H 5850 3150 60  0001 C CNN "Part no."
@@ -1428,7 +1441,7 @@ Text Notes 5200 1350 0    197  ~ 39
 DEBUG
 Text Notes 7800 1650 1    197  ~ 39
 MCU IO
-Text Notes 6450 3150 0    197  ~ 39
+Text Notes 5800 1700 0    197  ~ 39
 MISC
 $Comp
 L MOUNTING-HOLE M1
@@ -1493,8 +1506,9 @@ U 1 1 5B2F9CCE
 P 2400 3600
 F 0 "U4" H 2850 3650 60  0000 C CNN
 F 1 "AS1122" H 2550 3650 60  0000 C CNN
-F 2 "" H 2400 3600 60  0001 C CNN
+F 2 "Housings_DFN_QFN:QFN-24_4x4mm_Pitch0.5mm" H 2400 3600 60  0001 C CNN
 F 3 "" H 2400 3600 60  0001 C CNN
+F 4 "https://pl.mouser.com/ProductDetail/STMicroelectronics/STM8L151C2T6?qs=%2fha2pyFadujNatApb6mgzz5oJ%2fAcQJ2NvK7l0Sy1H86fz2YF2WkIHQ%3d%3d" H 2400 3600 60  0001 C CNN "Link"
 	1    2400 3600
 	1    0    0    -1  
 $EndComp
@@ -1504,8 +1518,9 @@ U 2 1 5B2F9DE7
 P 4350 4150
 F 0 "U4" H 4800 4200 60  0000 C CNN
 F 1 "AS1122" H 4500 4200 60  0000 C CNN
-F 2 "" H 4350 4150 60  0001 C CNN
+F 2 "Housings_DFN_QFN:QFN-24_4x4mm_Pitch0.5mm" H 4350 4150 60  0001 C CNN
 F 3 "" H 4350 4150 60  0001 C CNN
+F 4 "https://pl.mouser.com/ProductDetail/ams/AS1122-BQFT?qs=sGAEpiMZZMtnFuLo2AlFPmYx2o6FVQrBYhqjozvYioU%3d" H 4350 4150 60  0001 C CNN "Link"
 	2    4350 4150
 	1    0    0    -1  
 $EndComp
@@ -1517,6 +1532,7 @@ F 0 "Q2" H 2150 5575 50  0000 L CNN
 F 1 "BC807" H 2150 5500 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 2150 5425 50  0001 L CIN
 F 3 "" H 1950 5500 50  0001 L CNN
+F 4 "https://pl.mouser.com/ProductDetail/Nexperia/BC807215?qs=sGAEpiMZZMvKM5ialpXrmhmqXJPocDa9" H 1950 5500 60  0001 C CNN "Link"
 	1    1950 5500
 	1    0    0    1   
 $EndComp
@@ -1584,10 +1600,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2900 4900 2900
 Wire Wire Line
-	1950 1350 1950 1500
-Wire Wire Line
 	1950 1500 1650 1500
-Connection ~ 1950 1400
 Wire Wire Line
 	2400 1750 2400 1700
 Wire Wire Line
@@ -1713,7 +1726,7 @@ Connection ~ 5800 7400
 Wire Wire Line
 	5850 7050 5800 7050
 Wire Wire Line
-	5800 7050 5800 6900
+	5800 6900 5800 7050
 Wire Wire Line
 	5400 6900 5850 6900
 Connection ~ 5800 6900
@@ -1766,16 +1779,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 3450 7700 3450
 Wire Wire Line
-	1000 4750 1050 4750
-Wire Wire Line
-	1050 4750 1050 4800
-Wire Wire Line
-	1000 4650 1350 4650
-Wire Wire Line
-	1050 4600 1050 4650
-Wire Wire Line
-	1050 4300 1050 4250
-Connection ~ 1050 4650
+	7000 3100 7000 3050
 Wire Wire Line
 	8200 1550 8200 1600
 Wire Wire Line
@@ -1792,7 +1796,7 @@ Connection ~ 6100 2300
 Wire Wire Line
 	5650 2300 5600 2300
 Wire Wire Line
-	5600 2300 5600 2100
+	5600 2100 5600 2300
 Wire Wire Line
 	5150 2100 5650 2100
 Wire Wire Line
@@ -2387,4 +2391,29 @@ F 3 "" H 8550 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 5050 8400 5050
+$Comp
+L R_PHOTO R32
+U 1 1 5B380E5B
+P 7000 3650
+F 0 "R32" H 7050 3700 50  0000 L CNN
+F 1 "R_PHOTO" H 7050 3650 50  0000 L TNN
+F 2 "" V 7050 3400 50  0001 L CNN
+F 3 "" H 7000 3600 50  0001 C CNN
+F 4 "https://www.tme.eu/pl/details/pgm5539/fotorezystory/token/" H 7000 3650 60  0001 C CNN "Link"
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3400 7000 3500
+Wire Wire Line
+	7000 3800 7000 3850
+Wire Wire Line
+	7300 3450 7000 3450
+Connection ~ 7000 3450
+Text Label 7300 3450 2    60   ~ 0
+V_LDR
+Text Notes 5850 4800 0    197  ~ 39
+LED\nDRIVER
+Wire Wire Line
+	1950 1500 1950 1350
 $EndSCHEMATC

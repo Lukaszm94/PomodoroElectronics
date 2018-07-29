@@ -1,4 +1,4 @@
-update=nie, 24 cze 2018, 15:01:48
+update=30/06/2018 11:54:53
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,10 +61,20 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=/home/luke/PROJECTS/POMODORO/Electronics/Libraries/MCU_ST_STM8
-LibName34=SW-Microchip
-LibName35=tps62260
-LibName36=LED
-LibName37=LED_BGR
-LibName38=mounting-hole
-LibName39=AS1122
+LibName33=SW-Microchip
+LibName34=tps62260
+LibName35=LED
+LibName36=LED_BGR
+LibName37=mounting-hole
+LibName38=AS1122
+LibName39=MCU_ST_STM8
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
