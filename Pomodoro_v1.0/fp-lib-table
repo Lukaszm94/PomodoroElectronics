@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name LPS3015)(type KiCad)(uri $KIPRJMOD/../Libraries/LPS3015.pretty)(options "")(descr ""))
   (lib (name BUZZERS_TDK)(type KiCad)(uri $KIPRJMOD/../Libraries/BUZZERS_TDK.pretty)(options "")(descr ""))
+  (lib (name "NINIGI TACTS-24N-F")(type KiCad)(uri "$KIPRJMOD/../Libraries/NINIGI TACTS-24N-F.pretty")(options "")(descr ""))
+  (lib (name SLIDE_SWITCHES)(type KiCad)(uri $KIPRJMOD/../Libraries/SLIDE_SWITCHES.pretty)(options "")(descr ""))
 )
