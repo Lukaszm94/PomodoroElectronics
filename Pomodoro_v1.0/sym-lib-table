@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name microchip)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/microchip.lib)(options "")(descr ""))
+  (lib (name SW-Microchip)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/SW-Microchip.lib)(options "")(descr ""))
+  (lib (name tps62260)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/tps62260.lib)(options "")(descr ""))
+  (lib (name LED1)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/LED.lib)(options "")(descr ""))
+  (lib (name LED_BGR)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/LED_BGR.lib)(options "")(descr ""))
+  (lib (name mounting-hole)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/mounting-hole.lib)(options "")(descr ""))
+  (lib (name AS1122)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/AS1122.lib)(options "")(descr ""))
+  (lib (name MCU_ST_STM81)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/MCU_ST_STM8.lib)(options "")(descr ""))
+  (lib (name button_spst)(type Legacy)(uri E:/CURRENT/PROJECTS/POMODORO/Electronics/Libraries/button_spst.lib)(options "")(descr ""))
+)
