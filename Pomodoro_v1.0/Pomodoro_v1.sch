@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Pomodoro_v1-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -39,6 +40,7 @@ LIBS:mounting-hole
 LIBS:AS1122
 LIBS:MCU_ST_STM8
 LIBS:button_spst
+LIBS:Pomodoro_v1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1458,7 +1460,7 @@ $EndComp
 Text Notes 5750 3800 0    60   ~ 0
 MOUNTING\nHOLES
 $Comp
-L AS1122 U4
+L AS1122-RESCUE-Pomodoro_v1 U4
 U 1 1 5B2F9CCE
 P 2400 3600
 F 0 "U4" H 2850 3650 60  0000 C CNN
@@ -1470,7 +1472,7 @@ F 4 "https://pl.mouser.com/ProductDetail/STMicroelectronics/STM8L151C2T6?qs=%2fh
 	1    0    0    -1  
 $EndComp
 $Comp
-L AS1122 U4
+L AS1122-RESCUE-Pomodoro_v1 U4
 U 2 1 5B2F9DE7
 P 4350 4150
 F 0 "U4" H 4800 4200 60  0000 C CNN
@@ -1665,7 +1667,7 @@ Connection ~ 5800 7400
 Wire Wire Line
 	5850 7050 5800 7050
 Wire Wire Line
-	5800 6900 5800 7050
+	5800 7050 5800 6900
 Wire Wire Line
 	5400 6900 5850 6900
 Connection ~ 5800 6900
@@ -1732,7 +1734,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 2200 5600 2200
 Wire Wire Line
-	5600 2100 5600 2200
+	5600 2200 5600 2100
 Wire Wire Line
 	5150 2100 5650 2100
 Wire Wire Line
@@ -1891,7 +1893,7 @@ Connection ~ 3000 5750
 Wire Wire Line
 	800  6100 800  6400
 Text Label 800  6350 1    60   ~ 0
-D0_0
+DO_0
 Text Label 1050 6350 1    60   ~ 0
 DO_1
 Wire Wire Line
@@ -1976,7 +1978,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 3700 3100 3700
 Text Label 3100 3700 2    60   ~ 0
-D0_0
+DO_0
 Wire Wire Line
 	2900 3800 3100 3800
 Wire Wire Line
@@ -2000,27 +2002,27 @@ Wire Wire Line
 Wire Wire Line
 	2900 4800 3150 4800
 Text Label 3100 3800 2    60   ~ 0
-D0_1
+DO_1
 Text Label 3100 3900 2    60   ~ 0
-D0_2
+DO_2
 Text Label 3100 4000 2    60   ~ 0
-D0_3
+DO_3
 Text Label 3100 4100 2    60   ~ 0
-D0_4
+DO_4
 Text Label 3100 4200 2    60   ~ 0
-D0_5
+DO_5
 Text Label 3100 4300 2    60   ~ 0
-D0_6
+DO_6
 Text Label 3100 4400 2    60   ~ 0
-D0_7
+DO_7
 Text Label 3100 4500 2    60   ~ 0
-D0_8
+DO_8
 Text Label 3100 4600 2    60   ~ 0
-D0_9
+DO_9
 Text Label 3150 4700 2    60   ~ 0
-D0_10
+DO_10
 Text Label 3150 4800 2    60   ~ 0
-D0_11
+DO_11
 Wire Wire Line
 	3800 4250 4150 4250
 Text Label 3800 4250 0    60   ~ 0
