@@ -3,4 +3,5 @@
   (lib (name BUZZERS_TDK)(type KiCad)(uri $KIPRJMOD/../Libraries/BUZZERS_TDK.pretty)(options "")(descr ""))
   (lib (name NINIGI_TACTS-24N-F)(type KiCad)(uri $KIPRJMOD/../Libraries/NINIGI_TACTS-24N-F.pretty)(options "")(descr ""))
   (lib (name SLIDE_SWITCHES)(type KiCad)(uri $KIPRJMOD/../Libraries/SLIDE_SWITCHES.pretty)(options "")(descr ""))
+  (lib (name Connectors_JST)(type KiCad)(uri $KIPRJMOD/../Libraries/w_conn_jst-ph.pretty)(options "")(descr ""))
 )
