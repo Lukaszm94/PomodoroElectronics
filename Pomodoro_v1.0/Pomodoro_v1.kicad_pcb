@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
     (links 257)
     (no_connects 0)
-    (area 23.729999 43.3 122.85 111.27)
+    (area 27.924999 59.924999 98.075001 110.075001)
     (thickness 1.6)
     (drawings 22)
     (tracks 1366)
@@ -4179,8 +4179,8 @@
       (net 81 "Net-(J1-Pad2)"))
     (pad 3 thru_hole oval (at 1.99898 0 270) (size 1.19888 1.69926) (drill 0.70104) (layers *.Cu *.Mask B.SilkS)
       (net 82 "Net-(J1-Pad3)"))
-    (model walter/conn_jst-ph/s3b-ph-kl.wrl
-      (at (xyz 0 0 0))
+    (model Connectors_JST.3dshapes/JST_PH_S3B-PH-K_03x2.00mm_Angled.wrl
+      (at (xyz -0.07874 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4422,7 +4422,7 @@
   (gr_text + (at 42 68 180) (layer B.SilkS) (tstamp 5B85CC80)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text T (at 42.1 66.1 360) (layer B.SilkS) (tstamp 5B85CC7C)
+  (gr_text T (at 42.1 66.1) (layer B.SilkS) (tstamp 5B85CC7C)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_text - (at 42.1 64.2 180) (layer B.SilkS) (tstamp 5B85CC58)
